@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="Ni de Beauté - Elegant makeup and skincare products. Discover luxury beauty with us.">
+<meta name="keywords" content="makeup, skincare, beauty, Ni de Beauté">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   <meta name="description" content="Ni de Beauté - Elegant makeup and skincare products. Discover luxury beauty with us.">
@@ -78,8 +81,17 @@
     <p>&copy; 2025 Ni de Beauté. All rights reserved.</p>
   </footer>
 
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+
   <script src="main.js"></script>
-  
+
 </body>
 </html>
 
